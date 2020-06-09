@@ -1,27 +1,7 @@
 <html>
-    <head>
-    <!-- Compiled and minified CSS -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Welcome to NavBank</title>
-</head>
+    @@include('./partials/head.html')
 <body>
-    <nav role="navigation">
-    <div class="nav-wrapper container">
-        <a href="#" class="brand-logo">NavBank<i class="medium material-icons">monetization_on</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="#">Navbar Link</a></li>
-        </ul>
-
-        <ul id="nav-mobile" class="sidenav">
-            <li><a href="#">Navbar Link</a></li>
-        </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-</nav>
-<h1>Welcome to NavBank</h1>
-<p>The super legit bank of the 21st century</p>
+    @@include('./partials/menu.html')
     <div class="actions">
         <button id="create">Create Quicklink</button>
         <button id="sms">SMS Quicklink</button>
