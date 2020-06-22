@@ -1,6 +1,26 @@
 <html>
-    @@include('./partials/head.html')
+    <!-- @@include('./partials/head.html') -->
     <body>
-        <script src="https://static.creditsense.com.au/iframe/mlm-loader.js?aff=N696DZ9W&mode=standalone" data-include-url-param="true" id="mlm-loader-1"></script>
+        <script src="https://static.creditsense.com.au/iframe/mlm-loader.js?aff=N696DZ9W&mode=embedded" data-include-url-param="true" id="mlm-loader-1" data-defer="true"></script>
+        <script>
+            var event = new CustomEvent('mlm.init', {
+        detail: {
+            // ref: '2y3a2',
+            csid: 17658503,
+            fn: 'Fred',
+            sn: 'Nerk',
+            dob: '1980-03-21',
+            la: 600,
+            lr: 'Business',
+            mob: '0401755285',
+            e: 'fred.nerk@test.com',
+            l: '0733437654',
+            emp: 'Test Associates',
+            // pc: '09C'
+            // test_sale_outcome: 1
+        }
+    });
+    document.getElementById('mlm-loader-1').dispatchEvent(event);
+        </script>
     </body>
 </html>
