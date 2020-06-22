@@ -12,7 +12,7 @@ function createQuickLink() {
         }),
         success: (data) => {
             let token = data.Response.Token
-            $('.log').append(`<a href='https://creditsense.com.au/q/${token}'>https://creditsense.com.au/q/${token}</p>`);
+            $('.log').append(`<p><a href='https://creditsense.com.au/q/${token}'>https://creditsense.com.au/q/${token}</p>`);
             $('#sms').attr('data-token', token);
             $('#email').attr('data-token', token);
         },
