@@ -34,7 +34,9 @@ $(document).ready(function () {
         elementSelector: "#creditSenseIFrame",
         params: {
             debugBanks: true,
-            
+            // multibank: true
+            // termsBeforeCredentials: true,
+            // bgcolour: "ee6e73",
         },
         callback: handleIFrameResponse
     });
