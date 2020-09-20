@@ -16,9 +16,12 @@ function handleIFrameResponse(response, data) {
         case "1":
             logMsg('Initialised iFrame');
             break;
-        case "99": // Example status code (Bank status success)
-            logMsg('Bank details collected successfully');
+        case "3": // Example status code (Bank status success)
+            logMsg(data+ " I FOUND IT!!!");
             break;
+
+        case "99": // Example status code (Bank status success)
+        logMsg('Bank details collected successfully');
         case "100": // Example status code
             onApplicationSuccess();
             break;
@@ -31,9 +34,7 @@ $(document).ready(function () {
         elementSelector: "#creditSenseIFrame",
         params: {
             debugBanks: true,
-            bgcolour: "ee6e73",
-            // termsBeforeCredentials: true,
-            // multibank: true
+            
         },
         callback: handleIFrameResponse
     });

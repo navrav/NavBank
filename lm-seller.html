@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Welcome to NavBank</title>
 </head>
-    <body>
+    <body style="height:100000px">
         <nav role="navigation">
     <div class="nav-wrapper container">
         <a href="#" class="brand-logo">NavBank<i class="medium material-icons">monetization_on</i></a>
@@ -32,7 +32,7 @@
             var event = new CustomEvent('mlm.init', {
         detail: {
             // ref: '2y3a2',
-            csid: 17658503,
+            // csid: 17658503,
             fn: 'Fred',
             sn: 'Nerk',
             dob: '1980-03-21',
@@ -47,6 +47,12 @@
         }
     });
     document.getElementById('mlm-loader-1').dispatchEvent(event);
+
+document.getElementsByClassName('mlm-container')[0].addEventListener('mlm.step.arrived',function(ev){
+    if (ev.detail.step === "credit_sense") {
+        ev.target.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+    }
+});
         </script>
     </body>
 </html>
