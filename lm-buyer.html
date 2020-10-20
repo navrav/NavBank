@@ -27,6 +27,31 @@
 </nav>
 <h1>Welcome to NavBank</h1>
 <p>The super legit bank of the 21st century</p>
+<button id="frontLauncher" onclick="showFront()">Front Button</button>
+<script src="https://chat-assets.frontapp.com/v1/chat.bundle.js"></script>
+<script>
+  window.FrontChat('init', {chatId: 'afa4ef6d90c1df3cce9e649a8178aaa4', useDefaultLauncher: false});
+  
+  function showFront() {
+    FrontChat('show');
+  }
+
+  const unbind = FrontChat('onUnreadChange', (unread)=>{
+    const div = document.getElementById('frontLauncher');
+    showFront()
+  });
+  
+
+</script>
         <script src="https://static.creditsense.com.au/iframe/mlm-loader.js?page=buyer&mode=embedded" data-include-url-param="true" id="mlm-loader-1"></script>
+<!-- <script src="https://static.creditsense.com.au/iframe/mlm-loader.js?page=buyer&mode=embedded" data-include-url-param="true" id="mlm-loader-1" data-defer="true"></script>
+<script>
+  var event = new CustomEvent('mlm.init', {
+    detail: {
+      token: "TOKEN" // Token will need to be read from the URL parameter
+    }
+  });
+  document.getElementById('mlm-loader-1').dispatchEvent(event);
+</script> -->
     </body>
 </html>
