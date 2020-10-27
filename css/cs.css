@@ -230,6 +230,8 @@ label {
 
 #pleasewait .btn-success:hover {
   background-color: #e45714;
+  margin-top: 30px;
+  margin-left: 0 !important;
 }
 
 .apply-process__next-btn.btn {
