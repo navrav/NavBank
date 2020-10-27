@@ -1,0 +1,243 @@
+html {
+  min-width: auto !important;
+}
+
+#main {
+  min-height: 100px !important;
+}
+
+h2 {
+  color: #414042;
+  text-align: center;
+  font-size: 24px !important;
+}
+
+body,
+html {
+  background: none !important;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: none;
+}
+
+.btn-inverse br,
+.btn-success br {
+  content: " ";
+}
+
+.btn-inverse br:after,
+.btn-success br:after {
+  content: " ";
+}
+
+.big-button.btn-inverse {
+  background-color: #fff;
+  color: #38454d;
+  border: 2px solid #38454d;
+  font-size: 14px !important;
+  padding: 5px 20px;
+  text-shadow: none !important;
+  background: #fff;
+}
+
+.btn-inverse:hover,
+.btn-inverse:active,
+.btn-success:hover {
+  background-color: #38454d;
+  color: #fff;
+  border-color: #38454d;
+}
+
+#pleasewait .btn-success {
+  width: auto !important;
+}
+
+.btn-success,
+.btn-success[disabled] {
+  border: none;
+  color: #fff;
+  background: #f16421;
+  text-shadow: none !important;
+  font-size: 16px;
+  padding: 14px 37px !important;
+  width: 100% !important;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.btn-success:hover {
+  background-color: #e45714;
+  display: inline-block;
+}
+
+@media screen and (min-width: 536px) {
+  .btn-success,
+  .btn-success[disabled] {
+    width: 286px !important;
+    margin-bottom: 0px;
+  }
+}
+
+.success {
+  color: #76be19;
+  font-weight: bold;
+}
+
+.bank-select {
+  border-radius: 5px !important;
+  width: 100% !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  padding: 10px 15px !important;
+  background: #f6f8f9 !important;
+  position: relative !important;
+}
+
+.cs-bank-input {
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 0px !important;
+  width: 100% !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  padding: 10px 15px !important;
+  background: #ffffff !important;
+  position: relative !important;
+}
+
+.cs-bank-input:focus {
+  border-color: #f16421 !important;
+}
+
+label {
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  color: #394c4b !important;
+  text-transform: uppercase !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 7px !important;
+}
+
+.ui-menu .ui-menu-item {
+  font-size: 17px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: none;
+  background: #ebf1f1;
+}
+
+.ui-autocomplete {
+  max-height: 179px;
+}
+
+#associated-bank-select.selectable {
+  margin-bottom: 17px;
+  z-index: 9999;
+  padding: 8px 6px 4px 6px;
+  height: 41px;
+}
+
+.btn-link {
+  border: 2px solid #414042 !important;
+  border-radius: 4px !important;
+  width: 190px !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  padding: 10px 15px !important;
+  background: #fff !important;
+  position: relative !important;
+  color: #414042;
+}
+
+.btn-link:hover {
+  background: #414042;
+  color: #fff;
+}
+
+#ApplicationPage #accept-terms button {
+  margin-bottom: 10px;
+}
+
+#Surname input,
+#BankSelect input {
+  font-size: 20px !important;
+}
+
+.visible-phone .logo-outside {
+  width: 38% !important;
+  max-width: 38%;
+  margin-right: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.big-button {
+  /*width: 160px;*/
+  width: 50%;
+  height: 60px;
+  font-size: 16px !important;
+  line-height: 1;
+  /* text-transform: uppercase; */
+  padding: 3px !important;
+  font-weight: bold !important;
+}
+
+@media screen and (min-width: 450px) {
+  .visible-phone .logo-outside {
+    width: 18% !important;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .visible-phone .logo-outside {
+    width: 15% !important;
+  }
+}
+
+#acceptlicence p {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+#ApplicationPage .btn-link {
+  width: 210px !important;
+}
+
+#LoginStatusHeader {
+  font-size: 27px !important;
+  color: #414042;
+}
+
+#pleasewait .btn-success {
+  margin-top: 30px;
+  margin-left: 0 !important;
+}
+
+#pleasewait .btn-success:hover {
+  background-color: #e45714;
+}
+
+.apply-process__next-btn.btn {
+  padding-top: 14px !important;
+}
+
+@media screen and (min-width: 375px) {
+  .big-button {
+    width: 160px;
+  }
+}
