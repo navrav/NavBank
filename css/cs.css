@@ -1,4 +1,4 @@
 h2 {
-  color: #414042;
-  text-align: center;
+  color: #414042; !important
+  text-align: center;  !important
 }
