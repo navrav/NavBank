@@ -33,8 +33,9 @@ $(document).ready(function () {
         client: "NAVB001",
         elementSelector: "#creditSenseIFrame",
         params: {
-            debugBanks: true,
-            // multibank: true
+            cssOverride: "navrav.github.io/NavBank/css/cs.css",
+            debugBanks: true
+            // multibank: true,
             // termsBeforeCredentials: true,
             // bgcolour: "ee6e73",
         },
